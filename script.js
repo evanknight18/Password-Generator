@@ -8,15 +8,15 @@ var passwordCharacters = {
 };
 
 function generatePassword() {
-  let enterPassword 
-  prompt("Enter your password");
+  var enterPassword = prompt("Enter your password") 
 
-  if (enterPassword) {
-    
+  if (passwordText = passwordCharacters.upperCasecharacters) {
+    prompt("Yes");
   } else {
-    
+    prompt("No");
   }
-}; 
+
+};  
 
 // Write password to the #password input
 function writePassword() {
