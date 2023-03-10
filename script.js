@@ -8,8 +8,14 @@ var passwordCharacters = {
 };
 
 function generatePassword() {
-  var enterPassword = prompt("Enter your password")
-  var passwordLength = prompt("Password length between 8-128 characters");
+  let enterPassword 
+  prompt("Enter your password");
+
+  if (enterPassword) {
+    
+  } else {
+    
+  }
 }; 
 
 // Write password to the #password input
